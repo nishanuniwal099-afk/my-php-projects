@@ -31,7 +31,7 @@ $result = $conn->query($sql);
     </style>
 </head>
 <body>
-    <h1>Student Management System</h1>
+    <h1>Student Management App</h1>
     
     <?php if ($result && $result->num_rows > 0): ?>
         <table>
