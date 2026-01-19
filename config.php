@@ -1,15 +1,12 @@
 <?php
-// Database configuration
 define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_NAME', 'myapp_db');
+define('DB_USER', 'wp_user');
+define('DB_PASS', 'Root#123');
+define('DB_NAME', 'wordpress_db');
 
-// Create connection
 $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
-// Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-?>`
+?>
